@@ -1,0 +1,66 @@
+
+@keyframes myanimation {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+    
+}
+.container{
+    width: 1140px;
+    margin: 100px auto;
+    padding: 50px;
+
+}
+.container ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: darkblue;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.5s;
+
+}
+
+.container ul li:hover{
+    transition: 0.5s;
+   
+
+}
+
+.container ul li a{
+
+}
+
+.container ul li a i{
+    color: white;
+    font-size: 25px;
+    animation: myanimation 2s linear infinite;
+
+}
+.fb{
+    background-color: brown !important;
+
+}
+.lik{
+    background-color: rgb(136, 42, 165) !important;
+}
+.in{
+    background-color: rgba(16, 255, 124, 0.767) !important;
+    
+}
+.tw{
+    background-color: rgba(231, 17, 213, 0.788) !important;
+}
